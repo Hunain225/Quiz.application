@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.9/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <h1>quiz application</h1>
+
+    <div>
+        <fieldset class="me">
+            <p>what is the most exciting official anethm of <b> HBL PSL</b> </p>
+         <input id="q1-a1" name="general qs" type="radio">ab khel gamay ga</input><br>
+         <input id="q1-a2" name="general qs" type="radio">dil se jaan lagade</input><br>
+         <input id="q1-a3" name="general qs" type="radio">ye khel deewano ka</input><br>
+         <input id="q1-a4" name="general qs" type="radio">all of the above</input><br>
+        </fieldset>
+    </div>
+    
+    <div>
+        <fieldset class="me">
+            <p>Who composed the verses of Pakistan national Anthem?
+
+            </p>
+            <input id="q2-a1" name="city" type="radio">Hafeez Jallandri</input><br>
+            <input id="q2-a2" name="city" type="radio">Nasir Kazmi
+        </input><br>
+            <input id="q2-a3" name="city" type="radio"> Allama Iqbal</input><br>
+            <input id="q2-a4" name="city" type="radio">Faiz Ahmed Faiz</input><br>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset class="me">
+            <p> “Sohni Mahiwal” is a love story of:
+            </p>
+            <input id="q3-a1" name="city" type="radio">Sindhi</input><br>
+            <input id="q3-a2" name="city" type="radio">Punjabi</input><br>
+            <input id="q3-a3" name="city" type="radio">Pashto</input><br>
+            <input id="q3-a4" name="city" type="radio">Siraiki</input><br>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset class="me">
+            <p>“Heer Ranjha” is a love story of:</p>
+            <input id="q4-a1" name="city" type="radio">Pashto</input><br>
+            <input id="q4-a2" name="city" type="radio">Punjabi</input><br>
+            <input id="q4-a3" name="city" type="radio">Sindhi</input><br>
+            <input id="q4-a4" name="city" type="radio">Siraiki</input><br>
+</div>
+
+<div>
+    <fieldset class="me">
+        <p> Amir Crore is the first poet of:
+        </p>
+        <input id="q5-a1" name="city" type="radio">Pashto</input><br>
+        <input id="q5-a2" name="city" type="radio">Punjabi</input><br>
+        <input id="q5-a3" name="city" type="radio">Sindhi</input><br>
+        <input id="q5-a4" name="city" type="radio">Siraiki</input><br>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="me">
+        <p>Sassi punun is a love story of :</p>
+     <input id="q6-a1" name="city" type="radio">Punjabi</input><br>
+     <input id="q6-a2" name="city" type="radio">Sindhi</input><br>
+     <input id="q6-a3" name="city" type="radio">Pashto</input><br>
+     <input id="q6-a4" name="city" type="radio">Siraiki</input><br>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="me">
+        <p> How many letters are there in Urdu alphabets:
+        </p>
+     <input id="q7-a1" name="famous" type="radio">35</input><br>
+     <input id="q7-a2" name="famous" type="radio">37</input><br>
+     <input id="q7-a3" name="famous" type="radio">36</input><br>
+     <input id="q7-a4" name="famous" type="radio">39</input><br>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="me">
+        <p>Word Urdu means:
+        </p>
+     <input id="q8-a1" name="hospital" type="radio">Believers
+    </input><br>
+    <input id="q8-a2" name="hospital" type="radio">A group of students</input><br>
+    <input id="q8-a3" name="hospital" type="radio"> None of these
+    <input id="q8-a4" name="hospital" type="radio"> Army</input><br>
+
+    </input><br>
+    </fieldset>
+</div>
+
+<div>
+    <fieldset class="me">
+        <p>  Which Urdu has been taken from the following language:
+        </p>
+     <input id="q9-a1" name="bowler" type="radio">Persian</input><br>
+     <input id="q9-a2" name="bowler" type="radio">Arabic</input><br>
+     <input id="q9-a3" name="bowler" type="radio">Turkist</input><br>
+     <input id="q9-a4" name="bowler" type="radio">None of these</input><br>
+    </fieldset>
+</div>
+
+
+<div>
+    <fieldset class="me">
+        <p>1. Urdu was declared national language of Pakistan in:</p>
+     <input id="q10-a1" name="paper" type="radio">(a) April 1950
+    </input><br>
+    <input id="q10-a2" name="paper" type="radio">April 1954</input><br>
+     <input id="q10-a3" name="paper" type="radio">April 1955</input><br>
+     <input id="q10-a4" name="paper" type="radio"> April 1952</input><br>
+    </fieldset>
+</div>
+
+
+<button onclick="check()">result</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

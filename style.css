@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(90deg, rgba(151,195,208,1) 0%, rgba(172,90,170,1) 39%, rgba(121,175,185,1) 100%);
+    min-width: 300px;
+    max-width: 600px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(185, 89, 129);
+     font-family: 'Yanone Kaffeesatz', sans-serif  !important; 
+}
+fieldset{
+    border-style: solid;
+    border-color: pink;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 9px;
+    border-width: 10px;
+    width: 45%;
+}
+fieldset p{
+    text-align: center;
+
+    padding: 0px;
+    text-transform: capitalize;
+    font-size: 17px;
+    
+}
+
+button{
+    padding: 8px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 0.5cm;
+    margin: 6px;
+    color: white;
+    background-color: rgb(0, 15, 0);
+}
+
+
+.me{
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
